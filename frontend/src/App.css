@@ -19,3 +19,12 @@
     display: none;
 }
 
+.justify-center-custom{
+    justify-content: safe !important;
+}
+
+@media  (max-width:780px)  {
+    .justify-center-custom{
+    justify-content: center !important;
+}
+}
